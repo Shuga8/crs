@@ -20,7 +20,7 @@ const ComingSoon = () => {
           autoPlay
           loop
           muted
-          priority={"high"}
+          preload={"true"}
         ></video>
 
         <div className="content w-full h-full absolute z-[6] flex flex-col items-center justify-center gap-y-5">
