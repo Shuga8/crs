@@ -6,7 +6,7 @@ import logo from "../assets/CRS_logo.svg";
 
 const ComingSoon = () => {
   const currentTime = new Date().getTime();
-  const open = new Date("5 March 2025").getTime();
+  const open = new Date("20 March 2025").getTime();
   const distance = open - currentTime; // Time until event
 
   return (
