@@ -1,7 +1,14 @@
 import React from "react";
+import { ComingSoon } from "./index";
 
 const Home = () => {
-  return <div>Home</div>;
+  return (
+    <>
+      <div className="w-full">
+        <ComingSoon />
+      </div>
+    </>
+  );
 };
 
 export default Home;
