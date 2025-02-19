@@ -21,7 +21,7 @@
   --fcc-label-font-size: 10px; /* font size of label */
   --fcc-label-color: #ffffff; /* color of label */
   --fcc-background: black; /* background of digit card */
-  --fcc-divider-color: white; /* color of divider */
+  --fcc-divider-color: #666; /* color of divider */
   --fcc-divider-height: 1px; /* height of divider */
   --fcc-separator-size: 6px; /* size of colon */
   --fcc-separator-color: red; /* color of colon */

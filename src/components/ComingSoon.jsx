@@ -7,7 +7,7 @@ import logo from "../assets/CRS_logo.svg";
 const ComingSoon = () => {
   const currentTime = new Date().getTime();
   const open = new Date("20 March 2025").getTime();
-  const distance = open - currentTime; // Time until event
+  const distance = open - currentTime;
 
   return (
     <>
@@ -20,6 +20,7 @@ const ComingSoon = () => {
           autoPlay
           loop
           muted
+          priority={"high"}
         ></video>
 
         <div className="content w-full h-full absolute z-[6] flex flex-col items-center justify-center gap-y-5">
